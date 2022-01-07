@@ -1,0 +1,9 @@
+ru\netology\domain\Product.class
+ru\netology\repository\ProductRepository.class
+ru\netology\domain\TShirt.class
+ru\netology\manager\ProductManager.class
+ru\netology\domain\Smartphone.class
+ru\netology\domain\Printer.class
+ru\netology\domain\Book.class
+ru\netology\domain\MFU.class
+ru\netology\domain\Scanner.class
