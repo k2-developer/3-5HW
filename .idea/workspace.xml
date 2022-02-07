@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b2b8737-979f-450a-83a4-e61aeda02933" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/MFU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/TShirt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/manager/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/ProductManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +20,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +88,7 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductManagerTest.shouldSearchTwoSameNames">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.notFoundIfWrongParm">
     <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="products" />
       <extension name="coverage">
@@ -123,38 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerTest.shouldSearchByAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="products" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.manager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.ProductManagerTest" />
-      <option name="METHOD_NAME" value="shouldSearchByAuthor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductManagerTest.shouldSearchByProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="products" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.manager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.ProductManagerTest" />
-      <option name="METHOD_NAME" value="shouldSearchByProducer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductManagerTest.shouldSearchTwoSameNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="products" />
       <extension name="coverage">
@@ -171,13 +136,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepositoryTest.notFoundIfWrongParm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="notFoundIfWrongParm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.shouldDeleteOneItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldDeleteOneItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.notFoundIfWrongParm" />
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldDeleteOneItem" />
         <item itemvalue="JUnit.ProductManagerTest.shouldSearchTwoSameNames" />
         <item itemvalue="JUnit.ProductManagerTest.searchShouldReturnNothing" />
         <item itemvalue="JUnit.ProductManagerTest" />
-        <item itemvalue="JUnit.ProductManagerTest.shouldSearchByAuthor" />
-        <item itemvalue="JUnit.ProductManagerTest.shouldSearchByProducer" />
       </list>
     </recent_temporary>
   </component>
